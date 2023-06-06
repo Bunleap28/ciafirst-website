@@ -1,0 +1,272 @@
+.head-of-school-title{
+  font-family: Oswald, Arial;
+  display: block;
+  text-align: center;
+  color: rgb(0, 204, 255);
+  font-size: 30px;
+  padding-top: 40px;
+  line-height: 16px;
+}
+
+.kindergarten-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(0, 204, 255);
+  border-bottom-width: 1px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.kindergarten-head{
+  font-family: Oswald, Arial;
+  font-size: 26px;
+  color: grey;
+  margin-right: 50px;
+}
+
+.kindergarten-img{
+  position: relative;
+  display: flex;
+}
+
+.wilkinson{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.yarza{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.kindergarten-img1:hover .wilkinson{
+  visibility: visible;
+}
+
+.kindergarten-img2:hover .yarza{
+  visibility: visible;
+}
+
+.kindergarten-img img{
+  width: 250px;
+  height: 250px;
+  margin-right: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 204, 255);
+  padding: 5px 5px 5px 5px;
+}
+
+.kindergarten-img1:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+.kindergarten-img2:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+
+.elementary-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(0, 204, 255);
+  border-bottom-width: 1px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.elementary-head{
+  font-family: Oswald, Arial;
+  font-size: 26px;
+  color: grey;
+  margin-right: 50px;
+}
+
+.elementary-img{
+  position: relative;
+  display: flex;
+}
+
+.resie{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.matthew{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.elementary-img1:hover .resie{
+  visibility: visible;
+}
+
+.elementary-img2:hover .matthew{
+  visibility: visible;
+}
+
+.elementary-img img{
+  width: 250px;
+  height: 250px;
+  margin-right: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 204, 255);
+  padding: 5px 5px 5px 5px;
+}
+
+.elementary-img1:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+.elementary-img2:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+
+
+.middleschool-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  border-bottom-style: solid;
+  border-bottom-color:rgb(0, 204, 255);
+  border-bottom-width: 1px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.middleschool-head{
+  font-family: Oswald, Arial;
+  font-size: 26px;
+  color: grey;
+  margin-right: 50px;
+}
+
+.middleschool-img{ 
+  position: relative;
+  display: flex;
+}
+
+.greg{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.joyce{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.middleschool-img1:hover .greg{
+  visibility: visible;
+}
+
+.middleschool-img2:hover .joyce{
+  visibility: visible;
+}
+
+.middleschool-img img{
+  width: 250px;
+  height: 250px;
+  margin-right: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 204, 255);
+  padding: 5px 5px 5px 5px;
+}
+
+.middleschool-img1:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+.middleschool-img2:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+
+
+.highschool-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 70px;
+}
+
+.highschool-head{
+  font-family: Oswald, Arial;
+  font-size: 26px;
+  color: grey;
+  margin-right: 50px;
+}
+
+.highschool-img{ 
+  position: relative;
+  display: flex;
+}
+
+.shane{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.deepak{
+  visibility: hidden;
+  font-family: Oswald, Arial;
+}
+
+.highschool-img1:hover .shane{
+  visibility: visible;
+}
+
+.highschool-img2:hover .deepak{
+  visibility: visible;
+}
+
+.highschool-img img{
+  width: 250px;
+  height: 250px;
+  margin-right: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 204, 255);
+  padding: 5px 5px 5px 5px;
+}
+
+.highschool-img1:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
+
+.highschool-img2:hover{
+  cursor: pointer;
+  filter: brightness(75%);
+  transition: .2s;
+}
